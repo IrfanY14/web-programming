@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     const kgg=parseInt(prompt("enter your weight by kg"));
+        let func=(kg)=>{
+            let lb=2.2*kg
+            if(lb>150)
+            {
+                return "obese"
+            }
+            else if(lb>=100 && lb<=150)
+            {
+                return "you are ok"
+            }
+            else if(lb<100)
+            {
+                return "underweight"
+            }
+        }
+         document.write(func(kgg))
+        
+    </script>
+    
+</body>
+</html>

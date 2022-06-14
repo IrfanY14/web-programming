@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function insertpos(str,substr,pos)
+        {
+            return str.substr(0,pos)+ substr +str.substr(pos);
+        }
+        var str=prompt("enter the string");
+        var substr=prompt("enter the substring");
+        var pos=prompt("enter the position to be inserted");
+        document.write(insertpos(str,substr,pos));
+    </script>
+</body>
+</html>
